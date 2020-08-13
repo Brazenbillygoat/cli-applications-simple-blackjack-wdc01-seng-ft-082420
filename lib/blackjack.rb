@@ -1,3 +1,5 @@
+sum = 0
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -6,6 +8,7 @@ end
 def deal_card
   # code #deal_card here
   rand(1..11)
+  
 end
 
 def display_card_total(card_total)
