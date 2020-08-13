@@ -51,7 +51,7 @@ def hit?(current_card_total)
       again = 's'
     else
       invalid_command
-      prompt_user
+      display_card_total(current_card_total)
     end
   end
 end
