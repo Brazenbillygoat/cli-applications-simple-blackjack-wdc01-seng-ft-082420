@@ -42,7 +42,6 @@ def hit?(current_card_total)
   again = ""
   while again != 's' do
     prompt_user
-    get_user_input
     answer = get_user_input
     if answer == 'h'
       current_card_total += deal_card
