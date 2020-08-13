@@ -5,15 +5,17 @@ end
 
 def deal_card
   # code #deal_card here
-  
+  puts rand(1..11)
 end
 
-def display_card_total
+def display_card_total(card_total)
   # code #display_card_total here
+  puts "Your card add up to #{card_total}"
 end
 
 def prompt_user
   # code #prompt_user here
+  
 end
 
 def get_user_input
