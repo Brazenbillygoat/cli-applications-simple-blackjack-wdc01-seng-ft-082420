@@ -1,4 +1,3 @@
-sum = 0
 
 def welcome
   # code #welcome here
